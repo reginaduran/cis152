@@ -1,0 +1,40 @@
+/* Body */
+body {
+  background-color: #FFF;
+  color: #555;
+}
+
+/* Header */
+header {
+  background-color: #002171;
+  color: #FFF;
+}
+
+/* Navigation */
+nav {
+  background-color: #BBDEFB;
+}
+
+/* Headings */
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #1976D2;
+}
+
+/* Definition terms */
+dt {
+  color: #002171;
+}
+
+/* Address */
+address {
+  font-style: normal;
+}
+
+/* Resort class */
+.resort {
+  color: #1976D2;
+}
