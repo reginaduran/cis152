@@ -1,0 +1,80 @@
+/* Body Styles */
+body {
+    background-color: #90C7E3;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Wrapper */
+#wrapper {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px #333333;
+    margin: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    width: 80%;
+}
+
+/* Header */
+header {
+    background-color: #000033;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFFFFF;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    padding: 1px 20px 20px 20px;
+    display: block;
+}
+
+/* H2 Styling */
+h2 {
+    color: #3399CC;
+    text-shadow: 1px 1px #CCCCCC;
+}
+
+/* Footer */
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    padding: 2em;
+    background-color: #FFFFFF;
+}
+
+/* Hero Images - Shared Properties */
+#homehero, #yurthero, #trailhero {
+    background-size: cover;
+    background-position: center;
+    height: 18.75rem;
+}
+
+/* Individual Hero Images */
+#homehero {
+    background-image: url(images/coast2.jpg);
+}
+
+#yurthero {
+    background-image: url(images/yurthero.jpg);
+}
+
+#trailhero {
+    background-image: url(images/trailhero.jpg);
+}
